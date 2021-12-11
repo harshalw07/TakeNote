@@ -1,6 +1,6 @@
 html,body {
     height: 100%;
-    margin: 0;
+    margin:0;
 }
 
 .notes {
@@ -114,18 +114,22 @@ html,body {
 
 
 @media screen and (max-width:767px) {
+    .body{
+        padding: 5rem;
+        max-width: 100vw;
+    }
     .notes{
         flex-wrap: wrap-reverse;
     }
     .notes__preview {
         padding-bottom:0;
-        padding-top: 1rem;
+        padding-top: 2rem;
     }
     .notes__body{
         margin-top: 0.3rem;
     }
     .notes__sidebar {
-        max-height: 60vh;
+        max-height: 50vh;
         width: 380px;
         
     }
