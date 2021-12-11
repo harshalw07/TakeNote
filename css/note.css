@@ -114,10 +114,10 @@ html,body {
 
 
 @media screen and (max-width:767px) {
-    .body{
+    /* .body{
         padding: 5rem;
         max-width: 95vw;
-    }
+    } */
     .notes{
         flex-wrap: wrap-reverse;
     }
@@ -129,8 +129,9 @@ html,body {
         margin-top: 0.3rem;
     }
     .notes__sidebar {
+        justify-self: center;
         max-height: 50vh;
-        width: 380px;
+        width: 340px;
         
     }
 
