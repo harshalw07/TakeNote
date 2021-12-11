@@ -116,7 +116,7 @@ html,body {
 @media screen and (max-width:767px) {
     .body{
         padding: 5rem;
-        max-width: 100vw;
+        max-width: 95vw;
     }
     .notes{
         flex-wrap: wrap-reverse;
